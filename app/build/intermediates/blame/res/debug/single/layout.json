@@ -128,6 +128,10 @@
         "source": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/res/layout/activity_login.xml"
+    },
+    {
         "merged": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
         "source": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_dialog_title_material.xml"
     },

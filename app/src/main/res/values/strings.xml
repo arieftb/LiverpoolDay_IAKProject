@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Liverpool Day</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_btn_login">Login</string>
+    <string name="hint_btn_register">Register</string>
+
 </resources>
