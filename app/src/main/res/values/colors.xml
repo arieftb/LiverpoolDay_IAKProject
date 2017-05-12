@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#d32f2f</color>
     <color name="colorAccent">#ffd600</color>
     <color name="colorBtnText">#ffffff</color>
+    <color name="colorBGSecond">#ececec</color>
+
 </resources>

@@ -24,6 +24,10 @@
         "source": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/res/merged/debug/layout/activity_menu.xml",
+        "source": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/res/layout/activity_menu.xml"
+    },
+    {
         "merged": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_simple.xml"
     },
@@ -34,6 +38,10 @@
     {
         "merged": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/res/merged/debug/layout/activity_player.xml",
+        "source": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/res/layout/activity_player.xml"
     },
     {
         "merged": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",

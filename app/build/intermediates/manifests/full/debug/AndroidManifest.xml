@@ -26,6 +26,8 @@
             </intent-filter>
         </activity>
         <activity android:name="arieftb.liverpoolday.LoginActivity" />
+        <activity android:name="arieftb.liverpoolday.MenuActivity" />
+        <activity android:name="arieftb.liverpoolday.PlayerActivity" />
     </application>
 
 </manifest>

@@ -16,8 +16,8 @@ public class LoginActivity extends AppCompatActivity {
     EditText edUsername, edPassword;
     Button btnLogin, btnRegister;
 
-    private final String userName = "admin";
-    private final String passWord = "admin";
+    private final String USERNAME = "admin";
+    private final String PASSWORD = "admin";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,10 +40,10 @@ public class LoginActivity extends AppCompatActivity {
                 if((edUsername.getText().toString().equals("")) ||  (edPassword.getText().toString().equals(""))) {
                     Toast.makeText(getApplicationContext(), "Isian Belum Lengkap", Toast.LENGTH_LONG).show();
                 }
-                else if((edUsername.getText().toString().equals(userName)) ||  (edPassword.getText().toString().equals(passWord))){
+                else if((edUsername.getText().toString().equals(USERNAME)) ||  (edPassword.getText().toString().equals(PASSWORD))){
                     Toast.makeText(getApplicationContext(), "Login Berhasil", Toast.LENGTH_LONG).show();
-//                    Intent mIntent = new Intent(getApplicationContext(), MenuActivity.class);
-//                    startActivity(mIntent);
+                    Intent mIntent = new Intent(getApplicationContext(), MenuActivity.class);
+                    startActivity(mIntent);
                 }
                 else{
                     Toast.makeText(getApplicationContext(), "Login Gagal", Toast.LENGTH_LONG).show();

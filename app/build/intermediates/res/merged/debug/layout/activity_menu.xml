@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorBGSecond"
+    tools:context="arieftb.liverpoolday.MenuActivity">
+
+
+    <TextView
+        android:id="@+id/tv_titleMenuActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_menuChoice"
+        android:text="@string/tag_menu_activity"
+        android:textSize="@dimen/font_size_title"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_menuChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_menuSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/iv_menuSchedule"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/lfclogo"
+                android:scaleType="centerInside"
+                android:background="@color/colorBtnText"/>
+
+            <TextView
+                android:id="@+id/tv_menuSchedule"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@color/colorPrimary"
+                android:text="@string/hint_menu_jadwal"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorBtnText"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_menuPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_menuPlayer"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/lfclogo"
+                android:scaleType="centerInside"
+                android:background="@color/colorBtnText"/>
+
+            <TextView
+                android:id="@+id/tv_menuPlayer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@color/colorPrimary"
+                android:text="@string/hint_menu_player"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorBtnText"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
