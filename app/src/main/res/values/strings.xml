@@ -11,4 +11,8 @@
     <string name="hint_menu_jadwal">Schedule</string>
     <string name="hint_menu_player">Player</string>
 
+    <string name="profile_name">Name</string>
+    <string name="profile_no">No</string>
+    <string name="profile_region">Region</string>
+
 </resources>

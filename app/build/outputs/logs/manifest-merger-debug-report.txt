@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml:3:5-35
 		INJECTED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main
 		INJECTED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml
 		INJECTED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml:5:5-21:19
+ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:29:5-20
@@ -57,9 +57,17 @@ ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main
 	android:name
 		ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml:19:19-47
 activity#arieftb.liverpoolday.PlayerActivity
-ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml:20:9-61
+ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml:20:9-52
 	android:name
 		ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml:20:19-49
+activity#arieftb.liverpoolday.DetailPlayerActivity
+ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml:21:9-58
+	android:name
+		ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml:21:19-55
+activity#arieftb.liverpoolday.ScheduleActivity
+ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml:22:9-63
+	android:name
+		ADDED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml:22:19-51
 uses-sdk
 INJECTED from /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:21:5-23:78

@@ -28,6 +28,8 @@
         <activity android:name="arieftb.liverpoolday.LoginActivity" />
         <activity android:name="arieftb.liverpoolday.MenuActivity" />
         <activity android:name="arieftb.liverpoolday.PlayerActivity" />
+        <activity android:name="arieftb.liverpoolday.DetailPlayerActivity" />
+        <activity android:name="arieftb.liverpoolday.ScheduleActivity" />
     </application>
 
 </manifest>

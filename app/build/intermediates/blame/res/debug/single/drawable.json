@@ -28,6 +28,10 @@
         "source": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
+        "merged": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/res/merged/debug/drawable/lfclogo.png",
+        "source": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/src/main/res/drawable/lfclogo.png"
+    },
+    {
         "merged": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/home/arieftebe/Documents/Portfolio/Android/LiverpoolDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ratingbar_material.xml"
     },

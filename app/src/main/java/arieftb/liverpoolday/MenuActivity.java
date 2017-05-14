@@ -34,8 +34,8 @@ public class MenuActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "Pindah ke ScheduleActivity", Toast.LENGTH_SHORT).show();
 
-//                Intent mIntent = new Intent(getApplicationContext(), ScheduleActivity.class);
-//                startActivity(mIntent);
+                Intent mIntent = new Intent(getApplicationContext(), ScheduleActivity.class);
+                startActivity(mIntent);
             }
         });
 
